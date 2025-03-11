@@ -513,8 +513,7 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    filter: invert(100%) grayscale(50%) opacity(.8);
-    max-width: 60rem; 
+    filter: invert(100%) grayscale(50%) opacity(.8); 
 }
 
 .client__logo {
