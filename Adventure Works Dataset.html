@@ -1,24 +1,82 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+  
+    <!-- ***** Header ***** -->
+
+
 <head>
-  <meta charset="UTF-8">
-  <title>Power BI Dashboard</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 2rem; }
-    h1 { color: #2c3e50; }
-    img { max-width: 100%; height: auto; margin-bottom: 20px; }
-    .file-links a { display: block; margin: 10px 0; }
-  </style>
+  <meta charset="UTF-8" />
+  
+  <title>
+    Power BI | Dashboards.
+  </title>
+   <p>This page displays some Power BI projects I have worked and practiced on, including the .pbix file, source data, and screenshots.</p>
+  <meta name="description" content="Add small description of yourself.">
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
 </head>
+  
 <body>
-  <h1>Power BI Dashboard</h1>
-  <p>This page hosts a Power BI project including the .pbix file, source data, and screenshots.</p>
 
-  <div class="file-links">
-    <h2>Files</h2>
-    <a href="Adventure Works Sales Analysis.pbix" download>Download PBIX File</a>
-    <a href="ResellerSales_202006.csv" download>Download CSV Data</a>
-  </div>
+    <!-- ***** Dashboards ***** -->
 
-  <div class="screenshots">
+    <section class="projects" id="projects">
+      <div class="row">
+        <h2>Power BI Dashboards</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Adventure Works Anaysis</h3>
+              <p>
+              This page displays some Power BI projects I have worked and practiced on, including the .pbix file, source data, and screenshots.
+              </p>
+              <p>
+                February 2025
+              </p>
+                <a href="Adventure Works Sales Analysis.pbix" download>Download PBIX File</a>
+                <a href="ResellerSales_202006.csv" download>Download CSV Data</a>
+            
+            </div>
+            <div class="work__image-box">
+              <img src="./images/Model_View.png" class="work__image" alt="Model View" />
+            </div>
+            <div class="work__image-box">
+              <img src="./images/1_Overview.png" class="work__image" alt="Overview" />
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/123kiwi" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/matthewselwyn/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+  </footer>
+
+<div class="screenshots">
     <h2>Dashboard Screenshots</h2>
     <img src="1_Overview.png" alt="Dashboard Overview">
     <img src="2_Profit.png" alt="Profit Dashboard">
@@ -27,5 +85,12 @@
     <img src="4_Performance.png" alt="Performance Dashboard">
     <img src="Model_View.png" alt="Model View of Dataset">
   </div>
-</body>
   
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+  
+</body>
+
+</html>
